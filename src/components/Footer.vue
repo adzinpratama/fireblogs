@@ -3,7 +3,7 @@
     <div class="container">
       <div class="left">
         <div class="col-1">
-          <router-link class="header" :to="{ name: 'home' }"
+          <router-link class="header" :to="{ name: 'Home' }"
             >FireBlogs</router-link
           >
           <ul>
@@ -17,14 +17,14 @@
         </div>
         <div class="col-2">
           <ul>
-            <router-link class="link" :to="{ name: 'home' }">Home</router-link>
-            <router-link class="link" :to="{ name: 'blogs' }"
+            <router-link class="link" :to="{ name: 'Home' }">Home</router-link>
+            <router-link class="link" :to="{ name: 'Blogs' }"
               >Blogs</router-link
             >
             <router-link class="link" :to="{ name: 'newPost' }"
               >Create Post</router-link
             >
-            <router-link class="link" :to="{ name: 'login' }"
+            <router-link class="link" :to="{ name: 'Login' }"
               >Login / Register</router-link
             >
           </ul>
@@ -79,6 +79,7 @@ footer {
       display: flex;
       flex-direction: column;
       align-items: center;
+      padding: 0 20px;
       @media (min-width: 800px) {
         flex-direction: row;
         align-items: initial;
@@ -158,6 +159,7 @@ footer {
       color: #fff;
       align-items: center;
       flex-direction: column;
+      padding: 0 20px;
       @media (min-width: 800px) {
         align-items: flex-end;
         gap: 0;
